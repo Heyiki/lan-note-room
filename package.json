@@ -1,0 +1,20 @@
+{
+  "name": "lan-note-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "vite",
+    "build": "vite build",
+    "build:mls": "node mls-prototype/build.mjs",
+    "test:mls": "cargo test --locked --manifest-path mls-prototype/Cargo.toml",
+    "start": "node server/index.js"
+  },
+  "devDependencies": {
+    "vite": "6.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10"
+  }
+}
