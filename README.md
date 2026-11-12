@@ -1,6 +1,6 @@
 # LAN Note Room
 
-局域网临时群聊。成员加入时自动获得随机昵称，通过 HTTP 发送独立消息，
+局域网临时群聊。成员加入时自动获得随机昵称，支持端到端加密（MLS），
 Node.js 使用 SSE（Server-Sent Events，服务端事件流）实时推送。
 
 <div align="center">
