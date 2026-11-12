@@ -3,6 +3,11 @@
 局域网临时群聊。成员加入时自动获得随机昵称，通过 HTTP 发送独立消息，
 Node.js 使用 SSE（Server-Sent Events，服务端事件流）实时推送。
 
+<div align="center">
+  <img src="public/create_room.png" alt="LAN Note Room" height="200" />
+  <img src="public/room_chat.png" alt="LAN Note Room Chat" height="200" />
+</div>
+
 ## 环境与启动
 
 Node.js 20 或更高版本，支持 Windows / Linux / macOS。
